@@ -1,6 +1,7 @@
 return {
   "hrsh7th/nvim-cmp",
   event = "InsertEnter",
+  enabled= false,
   dependencies = {
     "hrsh7th/cmp-buffer", -- autocomleta con datos del buffer
     "hrsh7th/cmp-path", -- nos permite obtener recomencaciones para ruta del sistemas

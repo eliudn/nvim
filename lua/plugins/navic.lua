@@ -4,6 +4,7 @@ return {
     "neovim/nvim-lspconfig",
   },
 
+  enabled = false,
   config = function()
     local navic = require("nvim-navic")
     --    local on_attach = function(client, bufnr)
