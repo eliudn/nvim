@@ -23,6 +23,7 @@
         "/home/devleunamz/.local/share/nvim/lazy/dressing.nvim/lua",
         "/home/devleunamz/.local/share/nvim/lazy/neogen/lua",
         "/home/devleunamz/.config/nvim/lua",
-        "${3rd}/luv/library"
+        "${3rd}/luv/library",
+        "${3rd}/luassert/library"
     ]
 }
