@@ -7,7 +7,7 @@ return {
     "nvim-tree/nvim-web-devicons",    -- agrega icons
     "nvim-telescope/telescope-file-browser.nvim",
   },
-  enabled=false,
+ -- enabled=false,
 
   config = function()
     local telescope = require("telescope")
