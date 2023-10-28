@@ -2,6 +2,8 @@ vim.g.mapleader = " "
 
 local o = vim.o
 
+-- vim.api.nvim_command("set clipboard+=unnamedplus")
+o.clipboard = "unnamedplus"
 o.guifont = "VictorMono Nerd Font:h11"
 o.number = true
 o.hidden = true
